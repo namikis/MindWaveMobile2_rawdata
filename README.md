@@ -1,2 +1,3 @@
 # MindWaveMobile2_rawdata
-研究室のシェア用、せっかくなのでアップしました。 neurosky社のMindWaveMobile2の生データと1秒おきのスペクトルデータをcsvファイルで出力します。
+研究室のシェア用、せっかくなのでアップしました。 thinkgearモジュールを使ってneurosky社のMindWaveMobile2の生データと1秒おきのスペクトルデータをcsvファイルで出力します。
+<h1>aaa</h1>
