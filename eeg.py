@@ -1,4 +1,4 @@
-
+print("test")
 
 
 #poorSignal:0
@@ -77,3 +77,5 @@ try:
 except KeyboardInterrupt:
     print("\nfinish")
     sys.exit(0)
+except:
+    print("error occured.")
