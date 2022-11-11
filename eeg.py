@@ -5,7 +5,7 @@ print("test")
 #EEGPower:1
 
 import csv
-import thinkgear
+import thinkgear.thinkgear
 import datetime
 import os
 import sys
@@ -77,5 +77,6 @@ try:
 except KeyboardInterrupt:
     print("\nfinish")
     sys.exit(0)
-except:
+except Exception as e:
     print("error occured.")
+    print(e.message)
