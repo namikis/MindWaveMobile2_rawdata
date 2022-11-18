@@ -29,7 +29,7 @@ count = 0
 preMsec = -1
 
 start = datetime.datetime.now()
-file_path = "thinkgear_data/%d_%d_%d_%d" %(start.month, start.day, start.hour, start.minute)
+file_path = "thinkgear_data/%d_%d_%d_%d_%d" %(start.month, start.day, start.hour, start.minute, start.second)
 
 file_name = "%d_%d_%d_%d_raw.csv" %(start.month, start.day, start.hour, start.minute)
 file_name2 = "%d_%d_%d_%d_spec.csv" %(start.month, start.day, start.hour, start.minute)
